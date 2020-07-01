@@ -47,6 +47,28 @@ img:hover {
 .red, .red a {
   color: red;
 }
+
+.text-grey {
+  color: #4f4f4f;
+}
+
+span.bg-color {
+  color: white;
+  padding: 5px;
+}
+
+.bg-color-red {
+  background-color: red;
+}
+
+.bg-color-blue {
+  background-color: blue;
+}
+
+.bg-color-green {
+  background-color: green;
+}
+
 /* ==================== */
 /* ====== header ====== */
 /* ==================== */
@@ -82,9 +104,9 @@ img:hover {
 /* ====== link styles ====== */
 /* ========================= */
 
-a {
+/*a {
   text-decoration: none; 
-}
+}*/
 
 .links, .contact-link {
   color: #000000;
@@ -92,7 +114,7 @@ a {
   letter-spacing: 1px; }
 
 .links:hover, .contact-link:hover{
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #2194F4; }
 
 .link {
@@ -100,11 +122,15 @@ a {
 
 .link:hover {
   color: #2194F4;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 .link:active {
   color: #2194F4;
+}
+
+label a {
+  color: black !important;
 }
 /* ================= */
 /* ====== app ====== */
